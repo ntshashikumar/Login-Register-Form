@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+}
+.content1{
+    background-color: aqua;
+    height: 40px;
+    width: 100%;
+}
+.content1 h2 a{
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.content2{
+    border: 5px solid black;
+    border-radius: 20px;
+    padding-left: 50px;
+    height: 500px;
+    width: 400px; 
+    background-color: aquamarine;
+}
+.content2 .login .in{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    height: 30px;
+    width: 80%;
+}
